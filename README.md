@@ -81,10 +81,11 @@ Agent 会走完：确认协议端 → 问清指令原文 / 权限 / 数据 / 输
 
 由 **临皋闲人（QQ：3149790940）** 原创整理。
 
-生成的插件里，署名只出现在 `main.py` 头部注释的最后一行：
+生成的插件里，署名只出现在 `main.py` 头部注释的末尾（两行紧挨）：
 
 ```python
 # 本插件由临皋闲人（3149790940）封装的 AI Skill 辅助生成
+# 来源：https://github.com/chongguang89/olivadice-plugin-dev-internal
 ```
 
 `app.json` 的 `author` 归插件作者本人，与本规范无关。
