@@ -17,7 +17,7 @@
 | Claude Code | `~/.claude/skills/` |
 | 其他 | 以该客户端文档为准，通常是 `~/.<客户端名>/skills/` |
 
-### 方式一：git clone（推荐）
+### 方式一：git clone
 
 ```bash
 git clone https://github.com/chongguang89/olivadice-plugin-dev-internal.git ~/.workbuddy/skills/olivadice-plugin-dev-internal
@@ -31,7 +31,7 @@ git clone https://github.com/chongguang89/olivadice-plugin-dev-internal.git ~/.w
 
 ### 方式三：下载 zip（推荐）
 
-仓库页面 → Code → Download ZIP → 直接拖进新建的agent对话框，要求agent安装该skill
+仓库页面 → [右侧release](https://github.com/chongguang89/olivadice-plugin-dev-internal/releases/tag/Plugin) → Download ZIP → 直接拖进新建的agent对话框，要求agent安装该skill
 
 装完**新开一个对话**才生效（skill 列表在会话开始时加载）。
 
