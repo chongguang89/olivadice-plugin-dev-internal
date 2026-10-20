@@ -1,4 +1,4 @@
-# olivadice-plugin-dev-internal
+# OlivaDice-Plugin-Dev-Internal
 
 青果骰（OlivaDice / OlivOS / OlivaDiceCore）QQ 机器人插件开发规范 —— 一个给 AI Agent 用的 Skill。
 
@@ -20,18 +20,18 @@
 ### 方式一：git clone（推荐）
 
 ```bash
-git clone https://github.com/<你的用户名>/olivadice-plugin-dev-internal.git ~/.workbuddy/skills/olivadice-plugin-dev-internal
+git clone https://github.com/chongguang89/olivadice-plugin-dev-internal.git ~/.workbuddy/skills/olivadice-plugin-dev-internal
 ```
 
 ### 方式二：直接让 Agent 装
 
 把下面这句连同仓库地址一起发给 Agent：
 
-> 从 `https://github.com/<你的用户名>/olivadice-plugin-dev-internal` 安装这个 skill，放到 `~/.workbuddy/skills/olivadice-plugin-dev-internal/`，装完确认 `SKILL.md` 在根目录、`references/` 完整。
+> 从 `https://github.com/chongguang89/olivadice-plugin-dev-internal` 安装这个 skill，放到 `~/.workbuddy/skills/olivadice-plugin-dev-internal/`，装完确认 `SKILL.md` 在根目录、`references/` 完整。
 
-### 方式三：下载 zip
+### 方式三：下载 zip（推荐）
 
-仓库页面 → Code → Download ZIP → 解压 → 把 `olivadice-plugin-dev-internal-main` 改名为 `olivadice-plugin-dev-internal` → 放进 skills 目录。
+仓库页面 → Code → Download ZIP → 直接拖进新建的agent对话框，要求agent安装该skill
 
 装完**新开一个对话**才生效（skill 列表在会话开始时加载）。
 
