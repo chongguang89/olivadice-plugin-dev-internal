@@ -1,0 +1,36 @@
+===== macOS =====
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+===== Python =====
+pycache/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*~
+
+===== 临时文件与日志 =====
+*.tmp
+*.log
+.bak
+~$
+
+===== 青果骰插件产物 =====
+成品 opk 一般不进仓库（放 Release 或服务器）
+*.opk
+
+打包出来的 zip 同理；想随仓库分发就删掉下面这行
+dist/*.zip
+
+===== 以下默认保留，需要时再打开 =====
+.workbuddy/ # 项目记忆与配置，含个人信息，公开仓库建议忽略
+dist/ # 整个产物目录
