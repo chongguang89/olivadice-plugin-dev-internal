@@ -8,28 +8,7 @@
 
 ## 安装
 
-把整个仓库放到 Agent 客户端的 skills 目录下，**目录名保持 `olivadice-plugin-dev-internal`**，`SKILL.md` 必须在根目录。
-
-| 客户端 | skills 目录 |
-| --- | --- |
-| WorkBuddy（macOS） | `~/.workbuddy/skills/` |
-| WorkBuddy（Windows） | `C:\Users\<用户名>\.workbuddy\skills\` |
-| Claude Code | `~/.claude/skills/` |
-| 其他 | 以该客户端文档为准，通常是 `~/.<客户端名>/skills/` |
-
-### 方式一：git clone
-
-```bash
-git clone https://github.com/chongguang89/olivadice-plugin-dev-internal.git ~/.workbuddy/skills/olivadice-plugin-dev-internal
-```
-
-### 方式二：直接让 Agent 装
-
-把下面这句连同仓库地址一起发给 Agent：
-
-> 从 `https://github.com/chongguang89/olivadice-plugin-dev-internal` 安装这个 skill，放到 `~/.workbuddy/skills/olivadice-plugin-dev-internal/`，装完确认 `SKILL.md` 在根目录、`references/` 完整。
-
-### 方式三：下载 zip（推荐）
+### 推荐方式：下载 zip
 
 仓库页面 → [右侧release](https://github.com/chongguang89/olivadice-plugin-dev-internal/releases/tag/Plugin) → Download ZIP → 直接拖进新建的agent对话框，要求agent安装该skill
 
