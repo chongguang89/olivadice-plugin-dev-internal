@@ -6,6 +6,9 @@
 
 目前仅支持 `LLBot` `NapCat` 两种协议的接口及青果原生接口。
 
+建议0基础开发者搜索安装 `WorkBuddy` 使用本skill。
+指路：https://www.workbuddy.cn
+
 ---
 
 ## 安装
