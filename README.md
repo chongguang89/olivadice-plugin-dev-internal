@@ -13,11 +13,15 @@
 
 ## 安装
 
-### 推荐方式：下载 zip
+### 方式一：下载 zip
 
 仓库页面 → [右侧release](https://github.com/chongguang89/olivadice-plugin-dev-internal/releases/tag/Plugin) → Download ZIP → 直接拖进新建的agent对话框，要求agent安装该skill
 
 装完**新开一个对话**才生效（skill 列表在会话开始时加载）。
+
+### 方式二：要求agent自行安装
+
+新建任务窗口，输入指令“为我安装github上的olivadice-plugin-dev-internal.skill”，安装完毕后新建窗口即可使用。
 
 ---
 
